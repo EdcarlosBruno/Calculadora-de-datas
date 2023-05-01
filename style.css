@@ -1,0 +1,100 @@
+body{  
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(45deg, black,MediumOrchid);
+}
+.datas > input{
+    width: 9.8vw;
+    height: 30px;
+    display: flex;
+    padding: 0;
+    margin-left: 30%;
+    align-items: center;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 550;
+    border: none;
+    outline: none;
+}
+.cabeca{
+    text-align: center;
+}
+.datas > h2{
+    margin: 10px;
+    color: #00ff88;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.datas > h1{
+    text-align: center;
+    margin-top: 0;
+    color: #00ff88;
+    display: flex;
+    justify-content: center;
+}
+.nome {
+    text-align: center;
+    color: #00ff88;
+    font-weight: 800;
+}
+.fundo{
+    height: 100vh; 
+}
+.datas {
+    box-shadow: 0px 10px 40px #00000056;
+    padding: 50px;
+    border-radius: 19px;
+    position: absolute;
+    background-color:rgba(0, 0, 0,0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.botao {
+    cursor: pointer;
+    position: absolute;
+    width: 10vw;
+    height: 35px;
+    top: 84%;
+    left: 35%;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    color: #2b134b;
+    background-color: #0ccf74;
+    box-shadow: 0px 5px 10px;
+}
+
+@media only screen and (max-width:950px){
+    .fundo > h1{
+        display: none;
+    }
+    .botao{
+        width: 10vw;
+        height: 5vh;
+    }
+
+}
+@media only screen and (max-width:600px){
+    .datas{
+        width: 85%;
+    }
+    .datas > input{
+        width: 30vw;
+        height: 10vw;
+
+    }
+    .botao{
+
+        left: 40%;
+        width: 20vw;
+        height: 5vh;
+    }
+    .enunciado{
+        text-align: center;
+    }
+}
